@@ -1,3 +1,4 @@
+import 'package:app_anime/app/views/home.dart';
 import 'package:app_anime/app/views/login.dart';
 import 'package:app_anime/app/views/welcome.dart';
 import 'package:flutter/material.dart';
@@ -26,6 +27,7 @@ class _AppMainState extends State<AppMain> {
         '/': (context) => const Welcome(),
         '/Login': (context) => const Login(),
         '/Cadastro': (context) => const Cadastro(),
+        '/Home': (context) => const Home(),
       },
     );
   }
